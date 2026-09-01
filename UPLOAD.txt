@@ -1,0 +1,32 @@
+Norcon-landing — update for gregmilks/Norcon-landing (branch: main)
+Generated 2026-09-01
+
+THREE FILES. Repo layout is flat: the site lives at the repo root.
+
+  index.html                 REPLACES the existing root index.html
+                             (nav "Modular" -> "Royal Homes" linking to /royal-homes/;
+                              modular CTA now points to the new page)
+  sitemap.xml                REPLACES the existing root sitemap.xml
+                             (adds the /royal-homes/ URL)
+  royal-homes/index.html     NEW folder + file -> becomes buildnorthern.ca/royal-homes/
+
+HOW TO UPLOAD (github.com, no command line)
+
+  1. Open github.com/gregmilks/Norcon-landing
+  2. Add file -> Upload files
+  3. Drag in index.html and sitemap.xml (overwrites the existing ones)
+     and drag in the whole royal-homes FOLDER (do not open it first --
+     the folder name is what creates the /royal-homes/ URL)
+  4. Commit message: "Add Royal Homes landing page"
+  5. Commit directly to main
+
+GitHub Pages redeploys in about a minute.
+
+NOTHING ELSE CHANGES. No new images: the page reuses assets/royal-homes-logo.png,
+assets/norcon-logo-cropped.png and assets/norcon-favicon.png already in the repo.
+
+AFTER IT IS LIVE
+
+  - Check buildnorthern.ca/royal-homes/ loads and the logos appear
+  - Submit the updated sitemap in Google Search Console
+  - Send one test through the form to confirm Formspree is receiving

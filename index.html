@@ -38,6 +38,7 @@
   "logo": "https://buildnorthern.ca/assets/norcon-logo-cropped.png",
   "image": "https://buildnorthern.ca/assets/norcon-og-share.png",
   "email": "sales@buildnorthern.ca",
+  "telephone": "+1-705-885-5599",
   "description": "Northern Ontario general contractor with offices in Sudbury and Timmins, delivering commercial, industrial, residential, and municipal construction projects. Authorized Royal Homes modular dealer.",
   "areaServed": [
     { "@type": "City", "name": "Sudbury", "address": { "@type": "PostalAddress", "addressRegion": "ON", "addressCountry": "CA" } },
@@ -75,7 +76,7 @@
   .foot a:hover { color: white; }
   #hamburger { display: none; }
   #mobile-nav { display: none; }
-  @media (max-width: 860px) {
+  @media (max-width: 1100px) {
     #desktop-nav { display: none !important; }
     #hamburger { display: flex; }
     #mobile-nav.open { display: flex; }
@@ -87,9 +88,9 @@
 
 <header style="position: sticky; top: 0; z-index: 50; background: oklch(0.98 0.004 90 / 0.94); backdrop-filter: blur(8px); border-bottom: 1px solid oklch(0.88 0.01 90);">
   <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px clamp(20px, 4vw, 56px);">
-    <a href="/" aria-label="Norcon Construction home"><img src="assets/norcon-logo-cropped.png" width="1633" height="445" alt="Norcon Construction — general contractor, Sudbury and Timmins, Ontario" style="height: clamp(52px, 9vw, 80px); width: auto; object-fit: contain; display: block;"></a>
+    <a href="/" aria-label="Norcon Construction home"><img src="assets/norcon-logo-cropped.png" width="1633" height="445" alt="Norcon Construction — general contractor, Sudbury and Timmins, Ontario" style="height: clamp(46px, 7vw, 64px); width: auto; object-fit: contain; display: block;"></a>
     <nav id="desktop-nav" aria-label="Main" style="display: flex; align-items: center; gap: 28px; font-size: 15px; font-weight: 500; white-space: nowrap;">
-      <a class="navlink" href="#royal-homes">Modular</a>
+      <a class="navlink" href="/royal-homes/">Royal Homes</a>
       <a class="navlink" href="#services">Services</a>
       <a class="navlink" href="#about">About</a>
       <a class="navlink" href="#contact">Contact</a>
@@ -102,7 +103,7 @@
     </button>
   </div>
   <nav id="mobile-nav" aria-label="Mobile" style="flex-direction: column; gap: 18px; padding: 8px clamp(20px, 5vw, 56px) 24px; font-size: 16px; font-weight: 500;">
-    <a class="navlink" href="#royal-homes">Modular</a>
+    <a class="navlink" href="/royal-homes/">Royal Homes</a>
     <a class="navlink" href="#services">Services</a>
     <a class="navlink" href="#about">About</a>
     <a class="navlink" href="#contact">Contact</a>
@@ -132,44 +133,6 @@
   <li style="font-size: 15px; font-weight: 600; color: oklch(0.4 0.01 250);">Renovations</li>
 </ul>
 
-<section id="royal-homes" aria-labelledby="modular-heading" style="background: oklch(0.24 0.045 250); color: white; padding: clamp(60px, 10vw, 110px) clamp(20px, 5vw, 56px);">
-  <div style="max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 56px; align-items: center;">
-    <div style="display: flex; flex-direction: column; gap: 20px;">
-      <div style="display: flex; align-items: center; gap: 18px; flex-wrap: wrap;">
-        <span style="font-size: 15px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: oklch(0.72 0.1 145);">Modular</span>
-        <span style="height: 1px; width: 40px; background: oklch(0.45 0.02 250);"></span>
-        <span style="background: white; border-radius: 4px; padding: 10px 16px; display: flex; align-items: center;">
-          <img src="assets/royal-homes-logo.png" loading="lazy" width="1374" height="1611" alt="Royal Homes authorized dealer" style="height: 76px; width: auto; display: block;">
-        </span>
-      </div>
-      <h2 id="modular-heading" style="font-size: clamp(28px, 5vw, 40px); font-weight: 700; line-height: 1.1;">Royal Homes modular builds for Northern Ontario.</h2>
-      <p style="margin: 0; font-size: 17px; line-height: 1.65; color: oklch(0.85 0.005 250);">Norcon Construction is an authorized Royal Homes dealer. Royal Homes builds custom prefabricated homes and cottages indoors at its Wingham, Ontario facility, then delivers and finishes them on your lot. We handle the site work, foundation, and turnover here in the North.</p>
-      <p style="margin: 0; font-size: 17px; line-height: 1.65; color: oklch(0.85 0.005 250);">Modular isn't limited to single-family homes. We use the same process for multi-unit residential and commercial builds, delivering multiple units on a single schedule.</p>
-      <div style="display: flex; flex-wrap: wrap; gap: 16px; margin-top: 8px;">
-        <a class="hero-btn" href="#contact" style="background: oklch(0.5 0.09 145); color: white; padding: 16px 32px; border-radius: 4px; font-weight: 600; font-size: 16px;">Talk to Us About a Build</a>
-      </div>
-    </div>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
-      <div style="background: oklch(0.3 0.045 250); border-radius: 6px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
-        <h3 style="font-size: 30px; font-weight: 700; color: oklch(0.72 0.1 145);">Built indoors</h3>
-        <p style="margin: 0; font-size: 14px; line-height: 1.55; color: oklch(0.82 0.005 250);">Climate-controlled construction means no weather delays, even through a Northern winter.</p>
-      </div>
-      <div style="background: oklch(0.3 0.045 250); border-radius: 6px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
-        <h3 style="font-size: 30px; font-weight: 700; color: oklch(0.72 0.1 145);">6&ndash;9 months</h3>
-        <p style="margin: 0; font-size: 14px; line-height: 1.55; color: oklch(0.82 0.005 250);">Typical move-in timeline from signing to keys in hand.</p>
-      </div>
-      <div style="background: oklch(0.3 0.045 250); border-radius: 6px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
-        <h3 style="font-size: 30px; font-weight: 700; color: oklch(0.72 0.1 145);">10-year</h3>
-        <p style="margin: 0; font-size: 14px; line-height: 1.55; color: oklch(0.82 0.005 250);">Structural warranty &mdash; the 7-year Tarion coverage extended by three years.</p>
-      </div>
-      <div style="background: oklch(0.3 0.045 250); border-radius: 6px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
-        <h3 style="font-size: 30px; font-weight: 700; color: oklch(0.72 0.1 145);">Fully custom</h3>
-        <p style="margin: 0; font-size: 14px; line-height: 1.55; color: oklch(0.82 0.005 250);">Start from a Royal Homes plan and tailor layout, finishes, and fixtures to your budget.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section id="services" aria-labelledby="services-heading" style="padding: clamp(60px, 10vw, 110px) clamp(20px, 5vw, 56px); max-width: 1280px; margin: 0 auto;">
   <p style="margin: 0 0 14px; font-size: 15px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: oklch(0.5 0.09 145);">What We Do</p>
   <h2 id="services-heading" style="margin: 0 0 56px; font-size: clamp(30px, 5vw, 44px); font-weight: 700; max-width: 640px;">Full-service general contracting and construction, start to finish.</h2>
@@ -194,6 +157,23 @@
       <h3 style="font-size: 22px; font-weight: 600;">Renovations &amp; Retrofits</h3>
       <p style="margin: 0; font-size: 15px; line-height: 1.6; color: oklch(0.45 0.01 250);">Upgrades and expansions that keep operations running through construction.</p>
     </article>
+  </div>
+</section>
+
+<section id="royal-homes" aria-labelledby="modular-heading" style="background: oklch(0.24 0.045 250); color: white; padding: clamp(48px, 7vw, 76px) clamp(20px, 5vw, 56px);">
+  <div style="max-width: 1280px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 36px;">
+    <div style="display: flex; flex-direction: column; gap: 16px; max-width: 620px;">
+      <div style="display: flex; align-items: center; gap: 18px; flex-wrap: wrap;">
+        <span style="font-size: 15px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: oklch(0.72 0.1 145);">Authorized Dealer</span>
+        <span style="height: 1px; width: 40px; background: oklch(0.45 0.02 250);"></span>
+        <span style="background: white; border-radius: 4px; padding: 10px 16px; display: flex; align-items: center;">
+          <img src="assets/royal-homes-logo.png" loading="lazy" width="1374" height="1611" alt="Royal Homes authorized dealer" style="height: 62px; width: auto; display: block;">
+        </span>
+      </div>
+      <h2 id="modular-heading" style="font-size: clamp(26px, 4vw, 38px); font-weight: 700; line-height: 1.1;">Royal Homes modular builds for Northern Ontario.</h2>
+      <p style="margin: 0; font-size: 17px; line-height: 1.65; color: oklch(0.85 0.005 250);">Homes, cottages and rental housing built indoors, then delivered and finished on your lot. Duplexes and multi-unit builds use the same process.</p>
+    </div>
+    <a class="hero-btn" href="/royal-homes/" style="background: oklch(0.5 0.09 145); color: white; padding: 18px 36px; border-radius: 4px; font-weight: 600; font-size: 17px; white-space: nowrap;">See Modular Builds</a>
   </div>
 </section>
 
@@ -232,6 +212,17 @@
 <section id="contact" aria-labelledby="contact-heading" style="padding: clamp(60px, 10vw, 100px) clamp(20px, 5vw, 56px); background: oklch(0.93 0.03 145); display: flex; flex-direction: column; align-items: center; text-align: center; gap: 20px;">
   <h2 id="contact-heading" style="font-size: clamp(28px, 5vw, 42px); font-weight: 700; max-width: 640px;">Have a project in mind? Let's talk.</h2>
   <p style="margin: 0; font-size: 17px; color: oklch(0.4 0.01 250); max-width: 520px; line-height: 1.6;">Tell us about your project and we'll get back to you with a quote.</p>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px 40px; margin-top: 4px; padding: 20px 32px; background: white; border: 1px solid oklch(0.85 0.02 145); border-radius: 6px;">
+    <div style="display: flex; flex-direction: column; gap: 2px;">
+      <span style="font-size: 13px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: oklch(0.5 0.09 145);">Call</span>
+      <a href="tel:+17058855599" style="font-family: 'Barlow Condensed', sans-serif; font-size: 26px; font-weight: 700; color: oklch(0.24 0.045 250);">705-885-5599</a>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 2px;">
+      <span style="font-size: 13px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: oklch(0.5 0.09 145);">Email</span>
+      <a href="mailto:sales@buildnorthern.ca" style="font-family: 'Barlow Condensed', sans-serif; font-size: 26px; font-weight: 700; color: oklch(0.24 0.045 250);">sales@buildnorthern.ca</a>
+    </div>
+  </div>
+  <p style="margin: 0; font-size: 15px; color: oklch(0.45 0.01 250);">Or fill out the form below.</p>
   <div id="form-success" hidden style="max-width: 640px; width: 100%; margin-top: 20px; padding: 40px; background: white; border-radius: 6px; border: 1px solid oklch(0.85 0.02 145);">
     <p style="margin: 0; font-family: 'Barlow Condensed', sans-serif; font-size: 26px; font-weight: 700; color: oklch(0.24 0.045 250);">Thanks &mdash; we got it.</p>
     <p style="margin: 8px 0 0; font-size: 15px; color: oklch(0.4 0.01 250);">We'll be in touch about your project shortly.</p>
@@ -261,6 +252,7 @@
   <div style="display: flex; gap: 28px; font-size: 14px; flex-wrap: wrap;">
     <span>Sudbury, ON</span>
     <span>Timmins, ON</span>
+    <a href="tel:+17058855599" style="color: inherit;">705-885-5599</a>
     <a href="mailto:sales@buildnorthern.ca" style="color: inherit;">sales@buildnorthern.ca</a>
     <a href="https://buildnorthern.ca" style="color: inherit;">buildnorthern.ca</a>
   </div>
